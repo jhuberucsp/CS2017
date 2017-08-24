@@ -16,7 +16,7 @@ using namespace std;
         cout<<"no es primo"<<endl;}*/
 
 
-int main(){
+/*int main(){
     int num;
     cout<<"Ingrese numero"<<endl;
     cin>>num;
@@ -35,7 +35,34 @@ int main(){
 
 
     }
+    cout<<"no es primo"<<endl;
     return 0;
     }
+
+*/
+int main(){
+    int num;
+    cout<<"Ingrese numero"<<endl;
+    cin>>num;
+    int cont;
+    while(cont!=num){
+    bool c=true;
+    while((c==true||n<num)){
+            int n=2
+            n=n+1;
+            if(num%n==0){
+                c=false;
+                cout<<"no es primo"<<endl;
+                return 0;
+            }
+            else
+                cout<<"es primo"<<endl;
+                return 0;
+
+
+    }
+    return 0;
+    }}
+
 
 
